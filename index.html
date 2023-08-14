@@ -7,8 +7,26 @@
 </head>
 <body>
     <script>
-        alert("Welcome to our calcuator app!")
+        let num1,num2,operator;
+        let result;
+        operator = prompt(`Please Select a Menu
+            1. Addition
+            2. Subtraction
+            3. Multiplication
+            4. Division
+            5. Square
+            6. Square Root
+        `)
+        switch (Number(operator)) {
+            case 4:
+                num1 = prompt("Please enter the first number: ");
+                num2 = prompt("Please enter the second number");
+                result = alert(`The result is ${Number(num1)/Number(num2)}`)
+                break   
+            default:
+                break;
+        }
+        alert(name);
     </script>
-    <h1>Hello World</h1>
 </body>
 </html>
