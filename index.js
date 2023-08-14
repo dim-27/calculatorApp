@@ -24,7 +24,7 @@ function showResult(whatResult) {
 
 var doSomething = function (num1, num2) {
   if (operatorOpt == sumIt) {
-    // Kak Gusti Silahkan diisi
+    showResult("The result is:" + (num1 + num2));
   } else if (operatorOpt == subtractIt) {
     showResult("The result is: " + (num1 - num2));
   } else if (operatorOpt == multiplyIt) {
