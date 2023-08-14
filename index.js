@@ -34,7 +34,7 @@ var doSomething = function (num1, num2) {
   } else if (operatorOpt == square) {
     // Kak Evelio Silahkan diisi
   } else if (operatorOpt) {
-    // Kak Rais Silahkan disi
+    showResult("The result is: " + Math.sqrt(num1));
   } else if (operatorOpt == squareRoot3) {
     showResult("The result is: " + Math.cbrt(num1));
   } else {

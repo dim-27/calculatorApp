@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-  </head>
-  <body>
+</head>
+<body>
     <script>
-      alert("Welcome to our calcuator app!");
+        let num1,num2,operator;
+        let result;
+        operator = prompt(`Please Select a Menu
+            1. Addition
+            2. Subtraction
+            3. Multiplication
+            4. Division
+            5. Square
+            6. Square Root
+        `)
+        switch (Number(operator)) {
+            case 6: 
+                num1 = prompt("Please enter your number: ");
+                result = alert(`The result of ${num1} square root is ${Math.sqrt(num1)}`)
+                break 
+            default:
+                break;
+        }
+        alert(name);
     </script>
-    <script src="index.js"></script>
-    <h1>Hello World</h1>
-  </body>
+</body>
 </html>
