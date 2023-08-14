@@ -1,1 +1,3 @@
 # calculatorApp
+
+## add Math.pow

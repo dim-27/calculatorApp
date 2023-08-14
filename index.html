@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +5,27 @@
 </head>
 <body>
     <script>
-        alert("Welcome to our calcuator app!")
+        let num1,num2,operator;
+        let result;
+        operator = prompt(`Please Select a Menu
+            1. Addition
+            2. Subtraction
+            3. Multiplication
+            4. Division
+            5. Square
+            6. Square Root
+        `)
+        switch (Number(operator)) {
+            case 5:
+                num1 = prompt("Please enter the number");
+                num2 = 2;
+                result = Math.pow(parseInt(num1), num2)
+                let message = alert(`result = ${result}`)
+                break   
+            default:
+                break;
+        }
+        alert(name);
     </script>
-    <h1>Hello World</h1>
 </body>
 </html>
